@@ -49,7 +49,7 @@
 ---
 
 ## 📂 4. Cấu trúc thư mục
-
+```bash
 ├── client/
 │ └── UDPFileClient.java
 ├── server/
@@ -57,7 +57,7 @@
 ├── docs/
 │ └── README.md
 └── README.md
-
+```
 ---
 
 ## ▶️ 5. Cách chạy chương trình
