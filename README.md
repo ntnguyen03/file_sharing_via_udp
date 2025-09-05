@@ -18,3 +18,50 @@
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 
 </div>
+
+# 📡 Truyền File Qua UDP
+
+## 📖 1. Giới thiệu
+Đề tài minh hoạ cách xây dựng một ứng dụng **truyền file qua giao thức UDP** dựa trên mô hình **Client/Server**.  
+Ứng dụng cho phép:
+- Client chia nhỏ file thành nhiều gói tin và gửi tới Server.
+- Server nhận, ghép lại các gói tin và lưu thành file hoàn chỉnh.
+- Minh họa lập trình mạng với **UDP socket** trong Java.
+
+⚠️ Do UDP không đảm bảo tính tin cậy, đề tài có thể mở rộng thêm cơ chế **ACK/NACK**, đánh số thứ tự gói tin hoặc phát hiện gói tin mất để đảm bảo truyền tải chính xác hơn.
+
+---
+
+## 🔧 2. Ngôn ngữ lập trình sử dụng
+[![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
+
+---
+
+## 🚀 3. Các chức năng chính
+- 📤 **Client**: đọc file, chia thành gói tin, gửi qua UDP.
+- 📥 **Server**: nhận gói tin, sắp xếp và ghi thành file đầu ra.
+- 🔢 **Đánh số gói tin**: đảm bảo dữ liệu ghép đúng thứ tự.
+- 🛠️ **Có thể mở rộng**:
+  - Cơ chế kiểm tra mất gói và gửi lại.
+  - Truyền nhiều file liên tiếp.
+  - Mã hoá dữ liệu trước khi gửi.
+
+---
+
+## 📂 4. Cấu trúc thư mục
+
+├── client/
+│ └── UDPFileClient.java
+├── server/
+│ └── UDPFileServer.java
+├── docs/
+│ └── README.md
+└── README.md
+
+---
+
+## ▶️ 5. Cách chạy chương trình
+1. **Biên dịch chương trình**:
+   ```bash
+   javac client/UDPFileClient.java server/UDPFileServer.java
+
