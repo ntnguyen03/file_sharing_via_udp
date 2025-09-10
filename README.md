@@ -54,8 +54,6 @@
 │ └── UDPFileClient.java
 ├── server/
 │ └── UDPFileServer.java
-├── docs/
-│ └── README.md
 └── README.md
 ```
 ---
