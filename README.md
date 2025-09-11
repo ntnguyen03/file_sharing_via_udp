@@ -28,7 +28,6 @@
 - Server nhận, ghép lại các gói tin và lưu thành file hoàn chỉnh.
 - Minh họa lập trình mạng với **UDP socket** trong Java.
 
-⚠️ Do UDP không đảm bảo tính tin cậy, đề tài có thể mở rộng thêm cơ chế **ACK/NACK**, đánh số thứ tự gói tin hoặc phát hiện gói tin mất để đảm bảo truyền tải chính xác hơn.
 
 ---
 
