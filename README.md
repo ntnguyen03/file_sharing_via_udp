@@ -93,4 +93,7 @@ Lịch sử và thông tin file đã được gửi
 
 ---
    
-
+## 🗣️ Thông tin cá nhân
+- Nguyễn Trường Nam
+- Email: truongnam0304@gmail.com
+- Phone: 0397367184
