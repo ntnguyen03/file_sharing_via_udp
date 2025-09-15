@@ -33,6 +33,10 @@
 
 ## 🔧 2. Ngôn ngữ lập trình sử dụng
 [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
+- Công nghệ sử dụng
+    - **Java 8+**
+    - **Java Swing** (tạo giao diện)
+    - **UDP DatagramSocket** (truyền dữ liệu)
 
 ---
 
@@ -47,14 +51,10 @@
 
 ---
 
-## 📂 4. Cấu trúc thư mục
-```bash
-├── client/
-│ └── UDPFileClient.java
-├── server/
-│ └── UDPFileServer.java
-└── README.md
-```
+## 📂 4. Demo giao diện
+Demo giao diện của Client và Server
+<img width="1788" height="626" alt="image" src="https://github.com/user-attachments/assets/92d7d8c2-1890-4678-8fd7-9f763f18a82c" />
+
 ---
 
 ## ▶️ 5. Cách chạy chương trình
