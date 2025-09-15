@@ -1,3 +1,6 @@
 ./.idea
 ./out
 ./file_sharing_via_udp/.idea
+./final_networking_programming.iml
+./received_file.txt
+./send_file.txt
