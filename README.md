@@ -41,10 +41,12 @@
 ---
 
 ## 🚀 3. Các chức năng chính
-- 📤 **Client**: đọc file, chia thành gói tin, gửi qua UDP.
-- 📥 **Server**: nhận gói tin, sắp xếp và ghi thành file đầu ra.
-- 🔢 **Đánh số gói tin**: đảm bảo dữ liệu ghép đúng thứ tự.
-- 🛠️ **Có thể mở rộng**:
+- Client chọn nhiều file và gửi tới Server qua UDP socket.
+- File được chia nhỏ thành nhiều gói tin và truyền đi.
+- Server nhận, ghép lại và lưu file vào thư mục chỉ định.
+- Hiển thị tiến trình gửi/nhận file qua **JProgressBar**.
+- Giao diện trực quan bằng **Java Swing**.
+- **Có thể mở rộng**:
   - Cơ chế kiểm tra mất gói và gửi lại.
   - Truyền nhiều file liên tiếp.
   - Mã hoá dữ liệu trước khi gửi.
@@ -58,7 +60,25 @@ Demo giao diện của Client và Server
 ---
 
 ## ▶️ 5. Cách chạy chương trình
-1. **Biên dịch chương trình**:
-   ```bash
+### 1️⃣ Chạy Server
+- Mở `UDPFileServerGUI.java`
+- Chọn **Port** (mặc định: `8888`)
+- Bấm **Chọn thư mục lưu** để chỉ định nơi nhận file
+- Nhấn **Bắt đầu lắng nghe**
+
+### 2️⃣ Chạy Client
+- Mở `UDPFileClientGUI.java`
+- Nhập **IP** của Server (mặc định: `localhost`)
+- Nhập **Port** (mặc định: `8888`)
+- Chọn file cần gửi và nhấn **Gửi**
+
+---
+
+## 📌 Ghi chú
+- Server phải được khởi động **trước khi Client gửi file**.
+- Nếu chưa chọn thư mục lưu, file sẽ được lưu ngay tại thư mục chạy chương trình.
+- UDP không đảm bảo toàn vẹn gói tin → chỉ phù hợp để demo, với file nhỏ/medium.
+
+---
    
 
