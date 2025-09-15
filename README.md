@@ -54,8 +54,12 @@
 ---
 
 ## 📂 4. Demo giao diện
-Demo giao diện của Client và Server
-<img width="1788" height="626" alt="image" src="https://github.com/user-attachments/assets/92d7d8c2-1890-4678-8fd7-9f763f18a82c" />
+Giao diện của Cient
+<img width="728" height="484" alt="image" src="https://github.com/user-attachments/assets/6928b83a-7d87-4fee-8f33-8aef30b74fc4" />
+
+Giao diện của Server
+<img width="733" height="437" alt="image" src="https://github.com/user-attachments/assets/2649ec7c-8fff-475f-996f-2d2ca80f52f8" />
+
 
 ---
 
