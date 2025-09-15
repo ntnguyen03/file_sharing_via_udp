@@ -52,7 +52,7 @@
 
 ---
 
-## 📂 4. Demo giao diện
+## 🖼 4. Demo giao diện
 Giao diện của Cient
 <img width="728" height="484" alt="image" src="https://github.com/user-attachments/assets/6928b83a-7d87-4fee-8f33-8aef30b74fc4" />
 
