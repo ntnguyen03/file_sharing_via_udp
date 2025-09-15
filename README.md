@@ -60,6 +60,15 @@ Giao diện của Cient
 Giao diện của Server
 <img width="733" height="437" alt="image" src="https://github.com/user-attachments/assets/2649ec7c-8fff-475f-996f-2d2ca80f52f8" />
 
+Chọn file gửi từ Client
+<img width="726" height="481" alt="image" src="https://github.com/user-attachments/assets/9cec7a3e-9940-463f-bbae-6a4ac33e523b" />
+
+Chọn thư mục lưu trữ trên Server
+<img width="729" height="494" alt="image" src="https://github.com/user-attachments/assets/3705e7ef-7a89-4a6b-873d-43c9d2ff6476" />
+
+Lịch sử và thông tin file đã được gửi
+<img width="1501" height="502" alt="image" src="https://github.com/user-attachments/assets/3f0176da-6641-4582-ab58-c5d5f3f06d00" />
+
 
 ---
 
@@ -67,7 +76,7 @@ Giao diện của Server
 ### 1️⃣ Chạy Server
 - Mở `UDPFileServerGUI.java`
 - Chọn **Port** (mặc định: `8888`)
-- Bấm **Chọn thư mục lưu** để chỉ định nơi nhận file
+- Bấm **Chọn thư mục lưu** để chỉ định nơi nhận file (Nếu không chọn nơi lưu trữ, thư mục sẽ được lưu tại thư mục gốc (Nơi lưu trữ Ứng dụng))
 - Nhấn **Bắt đầu lắng nghe**
 
 ### 2️⃣ Chạy Client
