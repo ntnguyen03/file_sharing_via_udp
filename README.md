@@ -39,20 +39,7 @@
 
 ---
 
-## 🚀 3. Các chức năng chính
-- Client chọn nhiều file và gửi tới Server qua UDP socket.
-- File được chia nhỏ thành nhiều gói tin và truyền đi.
-- Server nhận, ghép lại và lưu file vào thư mục chỉ định.
-- Hiển thị tiến trình gửi/nhận file qua **JProgressBar**.
-- Giao diện trực quan bằng **Java Swing**.
-- **Có thể mở rộng**:
-  - Cơ chế kiểm tra mất gói và gửi lại.
-  - Truyền nhiều file liên tiếp.
-  - Mã hoá dữ liệu trước khi gửi.
-
----
-
-## 🖼 4. Demo giao diện
+## 🖼 3. Hình ảnh các chức năng
 Giao diện của Cient
 <img width="728" height="484" alt="image" src="https://github.com/user-attachments/assets/6928b83a-7d87-4fee-8f33-8aef30b74fc4" />
 
@@ -71,7 +58,7 @@ Lịch sử và thông tin file đã được gửi
 
 ---
 
-## ▶️ 5. Cách chạy chương trình
+## ▶️ 4. Cách chạy chương trình
 ### 1️⃣ Chạy Server
 - Mở `UDPFileServerGUI.java`
 - Chọn **Port** (mặc định: `8888`)
