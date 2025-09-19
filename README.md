@@ -93,7 +93,8 @@ Lịch sử và thông tin file đã được gửi
 
 ---
    
-## 🗣️ Thông tin cá nhân
+## 📝 Thông tin cá nhân
 - Nguyễn Trường Nam - CNTT 16-03
 - Email: truongnam0304@gmail.com
 - Phone: 0397367184
+© 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
