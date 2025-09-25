@@ -46,20 +46,24 @@ Các tính năng chính:
 ---
 
 ## 🖼 3. Hình ảnh các chức năng
-Giao diện của Cient
-<img width="728" height="484" alt="image" src="https://github.com/user-attachments/assets/6928b83a-7d87-4fee-8f33-8aef30b74fc4" />
+Giao diện của Cient gửi
+<img width="1111" height="798" alt="image" src="https://github.com/user-attachments/assets/79e1aacf-41d1-4b34-99a3-9c79fc7f51f8" />
+
 
 Giao diện của Server
-<img width="733" height="437" alt="image" src="https://github.com/user-attachments/assets/2649ec7c-8fff-475f-996f-2d2ca80f52f8" />
+<img width="977" height="734" alt="image" src="https://github.com/user-attachments/assets/eae22505-f785-470f-aa5d-ff9722683616" />
+
+Giao diện của Client nhận file
+<img width="988" height="746" alt="image" src="https://github.com/user-attachments/assets/7f19ab5e-b44a-49c4-88f7-319a542e4210" />
 
 Chọn file gửi từ Client
-<img width="726" height="481" alt="image" src="https://github.com/user-attachments/assets/9cec7a3e-9940-463f-bbae-6a4ac33e523b" />
+<img width="1108" height="804" alt="image" src="https://github.com/user-attachments/assets/af1113cd-9c66-464c-8422-9215bee89275" />
 
-Chọn thư mục lưu trữ trên Server
-<img width="729" height="494" alt="image" src="https://github.com/user-attachments/assets/3705e7ef-7a89-4a6b-873d-43c9d2ff6476" />
+Chọn thư mục lưu trữ trên Client nhận file
+<img width="992" height="744" alt="image" src="https://github.com/user-attachments/assets/488d1739-0662-464c-9fdc-f40250466a57" />
 
 Lịch sử và thông tin file đã được gửi
-<img width="1501" height="502" alt="image" src="https://github.com/user-attachments/assets/3f0176da-6641-4582-ab58-c5d5f3f06d00" />
+<img width="1840" height="1010" alt="image" src="https://github.com/user-attachments/assets/22e1d881-0df1-473f-b6b1-090415ff3e36" />
 
 
 ---
