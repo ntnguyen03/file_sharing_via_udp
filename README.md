@@ -22,11 +22,15 @@
 # 📡 Truyền File Qua UDP
 
 ## 📖 1. Giới thiệu
-Đề tài minh hoạ cách xây dựng một ứng dụng **truyền file qua giao thức UDP** dựa trên mô hình **Client/Server**.  
-Ứng dụng cho phép:
-- Client chia nhỏ file thành nhiều gói tin và gửi tới Server.
-- Server nhận, ghép lại các gói tin và lưu thành file hoàn chỉnh.
-- Minh họa lập trình mạng với **UDP socket** trong Java.
+Đề tài minh họa cách xây dựng một ứng dụng truyền file qua giao thức UDP dựa trên mô hình Client/Server. Ứng dụng hỗ trợ truyền file từ client đến server hoặc từ client này đến client khác thông qua server, với giao diện người dùng thân thiện và nhiều tính năng nâng cao.
+Các tính năng chính:
+- Chia sẻ file qua UDP: Client chia nhỏ file thành các gói tin và gửi đến server hoặc client khác.
+- Hỗ trợ gửi file trực tiếp đến client khác: Server có thể chuyển tiếp file đến một client khác dựa trên địa chỉ IP và cổng được chỉ định.
+- Giao diện người dùng: Hiển thị danh sách file ở dạng bảng hoặc thumbnail, hỗ trợ xem trước file (hình ảnh, văn bản) và kéo-thả file.
+- Theo dõi tiến độ: Hiển thị thanh tiến độ và trạng thái truyền file.
+- Lịch sử file: Lưu và hiển thị thông tin về các file đã nhận (tên, kích thước, người gửi, thông điệp).
+- Chọn thư mục lưu trữ: Client nhận file có thể chọn thư mục lưu trữ, với cơ chế tránh ghi đè file trùng tên.
+- Minh họa lập trình mạng với UDP socket trong Java.
 
 
 ---
@@ -36,6 +40,8 @@
 - Công nghệ sử dụng
     - **Java Swing** (tạo giao diện)
     - **UDP DatagramSocket** (truyền dữ liệu)
+    - Java AWT/Swing DnD: Hỗ trợ kéo-thả file vào giao diện client.
+    - Java ImageIO: Hỗ trợ xem trước hình ảnh và tạo thumbnail.
 
 ---
 
@@ -60,23 +66,39 @@ Lịch sử và thông tin file đã được gửi
 
 ## ▶️ 4. Cách chạy chương trình
 ### 1️⃣ Chạy Server
-- Mở `UDPFileServerGUI.java`
-- Chọn **Port** (mặc định: `8888`)
-- Bấm **Chọn thư mục lưu** để chỉ định nơi nhận file (Nếu không chọn nơi lưu trữ, thư mục sẽ được lưu tại thư mục gốc (Nơi lưu trữ Ứng dụng))
-- Nhấn **Bắt đầu lắng nghe**
+- Mở file UDPFileServerGUI.java.
+- Server tự động sử dụng port 8888 (mặc định).
+- File nhận được sẽ được lưu vào thư mục server_received_files (cho file lưu tại server) hoặc edge_storage (cho file chuyển tiếp).
+- Chuyển đổi giữa chế độ xem bảng và thumbnail bằng nút 🖼️ Thumbnails hoặc 📋 Table.
 
 ### 2️⃣ Chạy Client
-- Mở `UDPFileClientGUI.java`
-- Nhập **IP** của Server (mặc định: `localhost`)
-- Nhập **Port** (mặc định: `8888`)
-- Chọn file cần gửi và nhấn **Gửi**
+- Mở file UDPFileClientGUI.java.
+- Nhập IP của server (mặc định: localhost) và port (mặc định: 8888).
+- Chọn chế độ gửi:
+    - Send to Server: Gửi file đến server để lưu trữ.
+    - Send to Other Client: Nhập IP và port của client đích để chuyển tiếp file qua server.
+- Nhập tên người gửi và thông điệp (tùy chọn).
+- Chọn file bằng nút Choose Files hoặc kéo-thả file vào vùng được chỉ định.
+- Nhấn Send Selected để gửi file đã chọn hoặc Send All để gửi tất cả file trong danh sách.
+- Chuyển đổi giữa chế độ xem bảng và thumbnail bằng nút 🖼️ Thumbnails hoặc 📋 Table.
+- Xem trước file bằng cách chọn file trong danh sách hoặc thumbnail (hỗ trợ hình ảnh và văn bản).
 
+### 3️⃣ Chạy Client Nhận File
+- Mở file UDPFileClientReceive.java.
+- Client tự động lắng nghe trên port 9999 (mặc định).
+- Khi nhận được file, người dùng được yêu cầu chọn thư mục lưu trữ (chỉ chọn một lần cho tất cả file).
+- File nhận được hiển thị trong danh sách hoặc thumbnail, với thông tin về tên, kích thước, người gửi, và thông điệp.
+- Nhấn đúp vào thumbnail để mở thư mục chứa file.
+- Nhấn nút 🔄 Change Save Directory để thay đổi thư mục lưu trữ.
 ---
 
 ## 📌 Ghi chú
-- Server phải được khởi động **trước khi Client gửi file**.
-- Nếu chưa chọn thư mục lưu, file sẽ được lưu ngay tại thư mục chạy chương trình.
-- UDP không đảm bảo toàn vẹn gói tin → chỉ phù hợp để demo, với file nhỏ/medium.
+- Server phải được khởi động trước khi client gửi file.
+- Client nhận file phải chạy và lắng nghe trên port được chỉ định (mặc định: 9999) để nhận file chuyển tiếp.
+- File được chia thành các gói tin 4KB để truyền qua UDP.
+- Ứng dụng hỗ trợ nhiều loại file (hình ảnh, văn bản, PDF, v.v.) với thumbnail và xem trước phù hợp.
+- UDP không đảm bảo toàn vẹn gói tin, vì vậy ứng dụng phù hợp nhất cho các file nhỏ hoặc trung bình và môi trường mạng ổn định.
+- Nếu không chọn thư mục lưu trên client nhận, file sẽ bị từ chối. Server lưu file vào thư mục mặc định nếu không chuyển tiếp.
 
 ---
    
