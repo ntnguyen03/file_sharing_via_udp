@@ -22,15 +22,12 @@
 # 📡 Truyền File Qua UDP
 
 ## 📖 1. Giới thiệu
-Đề tài minh họa cách xây dựng một ứng dụng truyền file qua giao thức UDP dựa trên mô hình Client/Server. Ứng dụng hỗ trợ truyền file từ client đến server hoặc từ client này đến client khác thông qua server, với giao diện người dùng thân thiện và nhiều tính năng nâng cao.
+Đề tài minh họa cách xây dựng một ứng dụng truyền file qua giao thức UDP dựa trên mô hình Client/Server
 Các tính năng chính:
 - Chia sẻ file qua UDP: Client chia nhỏ file thành các gói tin và gửi đến server hoặc client khác.
 - Hỗ trợ gửi file trực tiếp đến client khác: Server có thể chuyển tiếp file đến một client khác dựa trên địa chỉ IP và cổng được chỉ định.
 - Giao diện người dùng: Hiển thị danh sách file ở dạng bảng hoặc thumbnail, hỗ trợ xem trước file (hình ảnh, văn bản) và kéo-thả file.
-- Theo dõi tiến độ: Hiển thị thanh tiến độ và trạng thái truyền file.
 - Lịch sử file: Lưu và hiển thị thông tin về các file đã nhận (tên, kích thước, người gửi, thông điệp).
-- Chọn thư mục lưu trữ: Client nhận file có thể chọn thư mục lưu trữ, với cơ chế tránh ghi đè file trùng tên.
-- Minh họa lập trình mạng với UDP socket trong Java.
 
 
 ---
@@ -48,7 +45,6 @@ Các tính năng chính:
 ## 🖼 3. Hình ảnh các chức năng
 Giao diện của Cient gửi
 <img width="1111" height="798" alt="image" src="https://github.com/user-attachments/assets/79e1aacf-41d1-4b34-99a3-9c79fc7f51f8" />
-
 
 Giao diện của Server
 <img width="977" height="734" alt="image" src="https://github.com/user-attachments/assets/eae22505-f785-470f-aa5d-ff9722683616" />
