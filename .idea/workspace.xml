@@ -5,9 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb1a359-cdad-48b3-8d86-00ef5fdd2b33" name="Changes" comment="rhymastic">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/flatlaf_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NGUYEN_TRUONG_NAM.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edge_storage/0a839533-58a2-4b07-9beb-e4c102864349.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edge_storage/1-Buổi 1-Giới thiệu môn học.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edge_storage/20-11-2020-thay-giao-tre-het-long-vi-hoc-sinh-B2CF003C.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edge_storage/2025-Formula1-Williams-FW47-003-2800p.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edge_storage/Fast Cat Cat Excited Sticker - Fast Cat Cat Excited Jumping - GIF'leri Keşfedin ve Paylaşın.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edge_storage/GyJoYBFOt2GaQN6eMvaeBmW3P8eDRX5oxxBz5ITo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edge_storage/image-20240927094908-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edge_storage/maxresdefault.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_sharing_via_udp/src/TestFlatLaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_sharing_via_udp/src/client/HistoryDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_sharing_via_udp/src/client/LoginDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_sharing_via_udp/src/client/UDPFileClientReceive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_sharing_via_udp/src/server/DatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_sharing_via_udp/src/utils/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/TestFlatLaf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/client/HistoryDialog$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/client/HistoryDialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/client/LoginDialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/client/UDPFileClientGUI$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/client/UDPFileClientGUI$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/client/UDPFileClientGUI$FileDropTargetListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/client/UDPFileClientGUI$ThumbnailPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/client/UDPFileClientGUI$WrapLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/client/UDPFileClientReceive$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/client/UDPFileClientReceive$ClientThumbnailPanel$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/client/UDPFileClientReceive$ClientThumbnailPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/client/UDPFileClientReceive$ReceivedFileInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/client/UDPFileClientReceive$WrapLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/client/UDPFileClientReceive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/server/DatabaseManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/server/UDPFileServerGUI$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/server/UDPFileServerGUI$ServerThumbnailPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/server/UDPFileServerGUI$UDPFileServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/server/UDPFileServerGUI$WrapLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final_networking_programming/utils/FileUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server_received_files/2025-Formula1-Williams-FW47-003-2800p.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server_received_files/Perro Brazil GIF - Perro Brazil Bailando - Discover &amp; Share GIFs.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server_received_files/baocao_LMS_lualatex.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/udp_file_system.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/received_file.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/send_file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_sharing_via_udp/src/client/UDPFileClientGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/file_sharing_via_udp/src/client/UDPFileClientGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_sharing_via_udp/src/server/UDPFileServerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/file_sharing_via_udp/src/server/UDPFileServerGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_networking_programming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/final_networking_programming.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_networking_programming/client/UDPFileClientGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_networking_programming/client/UDPFileClientGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_networking_programming/server/UDPFileServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_networking_programming/server/UDPFileServerGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_networking_programming/server/UDPFileServerGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/received_1-Buổi 1-Giới thiệu môn học.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/received_2-Buổi 1-Chương 1. Tổng quan về KTPM.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +84,17 @@
     &quot;accountId&quot;: &quot;def8637b-6900-4c0b-a91b-90d3a1284251&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/file_sharing_via_udp/src/client/UDPFileClientGUI.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/file_sharing_via_udp/src/server/UDPFileServerGUI.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -47,8 +106,13 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestFlatLaf.executor&quot;: &quot;Run&quot;,
     &quot;Application.UDPFileClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UDPFileClientGUI (1).executor&quot;: &quot;Run&quot;,
     &quot;Application.UDPFileClientGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UDPFileClientReceive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UDPFileReceiverGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UDPFileSenderGUI.executor&quot;: &quot;Run&quot;,
     &quot;Application.UDPFileServer.executor&quot;: &quot;Run&quot;,
     &quot;Application.UDPFileServerGUI.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
@@ -78,6 +142,32 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="UDPFileClientGUI (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.UDPFileClientGUI" />
+      <module name="final_networking_programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UDPFileClientGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.UDPFileClientGUI" />
+      <module name="final_networking_programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="file_sharing_via_udp" />
       <method v="2">
@@ -89,6 +179,12 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UDPFileClientGUI" />
+        <item itemvalue="Application.UDPFileClientGUI (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -113,7 +209,15 @@
       <workItem from="1757574167863" duration="796000" />
       <workItem from="1757575529900" duration="6932000" />
       <workItem from="1757727620987" duration="3787000" />
-      <workItem from="1757895957456" duration="4519000" />
+      <workItem from="1757895957456" duration="7132000" />
+      <workItem from="1758732203576" duration="9074000" />
+      <workItem from="1758771280539" duration="2206000" />
+      <workItem from="1758780302633" duration="11958000" />
+      <workItem from="1763289758729" duration="953000" />
+      <workItem from="1763376534900" duration="5905000" />
+      <workItem from="1763515603588" duration="1259000" />
+      <workItem from="1763702279511" duration="1095000" />
+      <workItem from="1763723150331" duration="6189000" />
     </task>
     <task id="LOCAL-00001" summary="vietnam">
       <option name="closed" value="true" />
