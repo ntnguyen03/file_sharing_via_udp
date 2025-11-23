@@ -74,6 +74,7 @@ Chọn thư mục lưu trữ trên Client nhận file
 <img width="785" height="592" alt="image" src="https://github.com/user-attachments/assets/8d65a3bd-63bc-4f7c-b5e8-99fe3f8618e4" />
 
 Lịch sử và thông tin file đã được gửi (Hình ảnh ví dụ trên Server)
+
 <img width="886" height="591" alt="image" src="https://github.com/user-attachments/assets/f9d0dc9f-445d-4467-ae02-75f8bda7edee" />
 
 
