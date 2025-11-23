@@ -34,6 +34,7 @@ Các tính năng chính:
 
 ## 🔧 2. Ngôn ngữ lập trình sử dụng
 [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
+<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"/>
 - Công nghệ sử dụng
     - **Java Swing** (tạo giao diện)
     - **UDP DatagramSocket** (truyền dữ liệu)
